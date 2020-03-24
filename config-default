@@ -1,0 +1,34 @@
+# Your local subnet
+MY_IP_RANGE="192.168.10.0/24"
+
+# Pre-Shared Key from IPsec Tunnel setup
+MY_SHARED_SECRET="long-secret"
+
+# Google Cloud Platform Region
+# https://cloud.google.com/compute/docs/regions-zones#locations
+MY_REGION="your-region"
+
+# GCP procet id
+MY_PROJECT_ID="your-project-id"
+
+# GCP VPC Network name
+MY_VPC_NETWORK="vpc-your-name"
+
+# Cloud VPN Tunnel name
+MY_TUNNEL_NAME="vpn-tunnel-your-tunnel-name"
+
+# GCP Route name 
+MY_ROUTE_NAME="vpn-tunnel-your-route-name"
+
+# Cloud VPN Gateway name
+MY_VPN_GATEWAY_NAME="vpn-gw-your-name"
+
+# Local pfSens IP for SSH access
+MY_PFSENSE_IP="192.168.10.1"
+
+# pfSens root user
+MY_PFSENSE_USER="root" # use root not admin
+
+# External URL that returns your IP
+MY_GET_IP_URL="https://ifconfig.me"
+#MY_GET_IP_URL="http://whatismyip.akamai.com/"
