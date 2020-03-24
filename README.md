@@ -35,9 +35,8 @@ Usage: gcp-vpn.sh OPTION:
 ## Installation
 
 ```
-# Clone this repo
-git clone https://github.com/Cyclenerd/google-cloud-gcp-pfsense.git
-cd google-cloud-gcp-pfsense
+# Download gcp-vpn.sh
+curl -f https://raw.githubusercontent.com/Cyclenerd/google-cloud-gcp-pfsense/master/gcp-vpn.sh -o gcp-vpn.sh
 ```
 
 ## Configuration
@@ -48,7 +47,7 @@ You will get them later when you read this documentation.
 
 ```
 # Creat config file
-cp config-default config
+curl -f https://raw.githubusercontent.com/Cyclenerd/google-cloud-gcp-pfsense/master/config-default -o config
 # Edit config
 vi config
 ```
